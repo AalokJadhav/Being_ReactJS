@@ -1,0 +1,96 @@
+/* section */
+.section {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: var(--max-width);
+  }
+  
+  @media screen and (min-width: 992px) {
+    .section {
+      width: 95vw;
+    }
+  }
+
+/*
+=============== 
+Questions
+===============
+*/
+
+main {
+    min-height: 100vh;
+    /* using flex because of better browser support */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .accordion-div {
+    width: 90vw;
+    margin: 0px;
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    max-width: var(--fixed-width);
+    display: grid;
+    gap: 1rem 2rem;
+  }
+  .accordion-div h3 {
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .info {
+      background-color: bisque;
+  }
+
+  .accordion-heading {
+    background-color: greenyellow;
+  }
+  @media screen and (min-width: 992px) {
+    .accordion-div {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
+  }
+  .question {
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--clr-grey-special);
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+  }
+
+  .question p {
+    color: var(--clr-grey-3);
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    margin-left: 4em;
+
+  }
+  .question header {
+    display: flex;
+    align-items: center;
+  }
+  .question header h4 {
+    margin-bottom: 0;
+  }
+  .btn {
+    background: transparent;
+    border-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    background: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--clr-red-special);
+    cursor: pointer;
+    margin-left: 1rem;
+    align-self: center;
+    min-width: 2rem;
+  }
+  
+  .question-title {
+    cursor: pointer;
+  }
