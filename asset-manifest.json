@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Being_ReactJS/static/css/main.4d01ee7e.chunk.css",
-    "main.js": "/Being_ReactJS/static/js/main.71616e62.chunk.js",
-    "main.js.map": "/Being_ReactJS/static/js/main.71616e62.chunk.js.map",
+    "main.css": "/Being_ReactJS/static/css/main.1d479439.chunk.css",
+    "main.js": "/Being_ReactJS/static/js/main.4f543c7d.chunk.js",
+    "main.js.map": "/Being_ReactJS/static/js/main.4f543c7d.chunk.js.map",
     "runtime-main.js": "/Being_ReactJS/static/js/runtime-main.c66486af.js",
     "runtime-main.js.map": "/Being_ReactJS/static/js/runtime-main.c66486af.js.map",
     "static/css/2.0a9ec390.chunk.css": "/Being_ReactJS/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.24965c79.chunk.js": "/Being_ReactJS/static/js/2.24965c79.chunk.js",
-    "static/js/2.24965c79.chunk.js.map": "/Being_ReactJS/static/js/2.24965c79.chunk.js.map",
+    "static/js/2.ab825b5d.chunk.js": "/Being_ReactJS/static/js/2.ab825b5d.chunk.js",
+    "static/js/2.ab825b5d.chunk.js.map": "/Being_ReactJS/static/js/2.ab825b5d.chunk.js.map",
     "index.html": "/Being_ReactJS/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/Being_ReactJS/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.4d01ee7e.chunk.css.map": "/Being_ReactJS/static/css/main.4d01ee7e.chunk.css.map",
-    "static/js/2.24965c79.chunk.js.LICENSE.txt": "/Being_ReactJS/static/js/2.24965c79.chunk.js.LICENSE.txt"
+    "static/css/main.1d479439.chunk.css.map": "/Being_ReactJS/static/css/main.1d479439.chunk.css.map",
+    "static/js/2.ab825b5d.chunk.js.LICENSE.txt": "/Being_ReactJS/static/js/2.ab825b5d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c66486af.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.24965c79.chunk.js",
-    "static/css/main.4d01ee7e.chunk.css",
-    "static/js/main.71616e62.chunk.js"
+    "static/js/2.ab825b5d.chunk.js",
+    "static/css/main.1d479439.chunk.css",
+    "static/js/main.4f543c7d.chunk.js"
   ]
 }
