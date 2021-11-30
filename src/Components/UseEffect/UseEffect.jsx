@@ -5,7 +5,7 @@ const Hooks = () => {
     const [nums, setNums] = useState(0);
 
     useEffect(() => {
-        alert ('Welcome...🙏')
+        alert ('Welcome To The React App 🙏')
     },[num])
     return (
         <>
@@ -13,14 +13,14 @@ const Hooks = () => {
             <hr className="line"></hr>
             <h5 className="title">🔵<u>React Hook</u> - UseEffect</h5><br /><br />
             <div className="content">
-            <button onClick={() => {
+            <button  className = "btn1" onClick={() => {
                     setNum(num + 1);
                  }}
                 >Click Me... {num}</button>
 
-                <br/>
+                <br/><br/>
 
-                <button  onClick={() => {
+                <button className = "btn1" onClick={() => {
                     setNums(nums + 1);
                  }}
                 >Click Me... {nums}</button>

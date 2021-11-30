@@ -22,7 +22,7 @@ const UseState = () => {
             <p>const [ current value,(function = updated value)] = useSate(initial value)</p>
             <div className="usestate">
                 <h1>{count}</h1><br/>
-                <button className="btn" onClick={IncNo}>Click Me 👆</button>
+                <button className="btn1" onClick={IncNo}>Click Me 👆</button>
             </div>
         </>
     )

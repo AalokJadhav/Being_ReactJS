@@ -7,10 +7,8 @@ function RComponents() {
         <>
             <h5 className="title">🔵 <u>React Components</u> - Seprate Piece of code into Components (use Title & GoolgleFont Components) </h5><br />
             <Title />
-            <br/>
       <hr className="line"></hr>
             <GoogleFont />
-            <br/>
             </>
     )
 }

@@ -15,7 +15,6 @@ function List() {
           <li>Ozark</li>
         </ol>
       </div>
-      <br/>
       <hr className="line"></hr>
     </>
   );

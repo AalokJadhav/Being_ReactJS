@@ -17,6 +17,7 @@ if (hour >= 1 && hour < 12) {
 function SimpleGreeting() {
     return (
         <>
+              <hr className="line"></hr>
             <h5 className="title">🔵 <u>Challenge</u> - Simple Greeting As Timeline change the expression of farewell (ie.Good Morning/Afternoon/Night)</h5><br />
             <div className="challenge1">
                 <h1>Hello World...<span style={cssStyle}> {greeting}</span></h1>

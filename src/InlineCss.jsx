@@ -5,7 +5,6 @@ function InlineCss() {
             <div className="content">
             <h3>Being <span style={{ color: '#61dafb', fontFamily: 'serif' }}>ReactJs</span> </h3>
             </div>
-            <br/>
       <hr className="line"></hr>
         </>
     )

@@ -11,7 +11,7 @@ const MultipleInput = () => {
 
     const submit = (event) => {
         event.preventDefault();
-        alert('form submitted..!')
+        alert('Form Submitted..!')
     }
 
     const inputEvent = (event) => {
@@ -52,7 +52,7 @@ const MultipleInput = () => {
                     <br />
                     <input type="text" placeholder="last name" onChange={inputEvent} name="lName" value={FullName.lname}></input>
                     <br />
-                    <button className="btn" type="submit">Submit</button>
+                    <button className="btn1" type="submit">Submit</button>
                 </div>
             </form>
         </>

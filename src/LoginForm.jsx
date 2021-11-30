@@ -13,7 +13,7 @@ const LoginForm = () => {
 
     const submit = (event) => {
         event.preventDefault();
-        alert('form submitted..!');
+        alert('Form Submitted..!');
     }
 
     const inputEvent = (event) => {
@@ -86,7 +86,7 @@ const LoginForm = () => {
                     <br />
                     <input type="number" placeholder="phone number" onChange={inputEvent} name="phone" value={FullName.phone} autoComplete="off"></input>
                     <br />
-                    <button className="btn" type="submit">Submit</button>
+                    <button className="btn1" type="submit">Submit</button>
                 </div>
             </form>
         </>

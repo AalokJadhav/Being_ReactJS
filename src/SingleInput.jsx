@@ -33,7 +33,7 @@ const SingleInput = () => {
                     <br />
                     <input type="text" placeholder="last name" onChange={InputEvent1} value={lastname}></input>
                     <br />
-                    <button className="btn" type="submit">Submit</button>
+                    <button className="btn1" type="submit">Submit</button>
                 </div>
             </form>
         </>

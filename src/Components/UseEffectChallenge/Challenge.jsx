@@ -12,7 +12,7 @@ const Challenge = () => {
             <hr className="line"></hr>
             <h5 className="title">🔵<u>React Hook</u> - useEffect Challenge (changing the title value on button click)</h5><br /><br />
             <div className="content">
-            <button onClick={() => {
+            <button className = "btn1" onClick={() => {
                 setNum(num + 1);
             }}
             >Click Me... {num}</button>

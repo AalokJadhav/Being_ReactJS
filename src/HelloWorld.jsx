@@ -6,8 +6,7 @@ const Hello = () => {
         <>
             <h5 className="title">🔵 <u>Hello World</u> - </h5><br />
 
-            <h4 className="content">Hello  World From ReactJS...✋</h4><br />
-            <br/>
+            <h4 className="content">Hello  World From ReactJS...✋</h4>
       <hr className="line"></hr>
         </>
     )

@@ -22,7 +22,7 @@ const Event = () => {
               <hr className="line"></hr>      
             <h5 className="title">🔵 <u>Events</u> -  Handling Events </h5><br /><br />
             <div className="event" style={{ backgroundColor: bg }}>
-                <button className="btn" onClick={bgChange} onDoubleClick={bgBack}>{name}</button>
+                <button className="btn1" onClick={bgChange} onDoubleClick={bgBack}>{name}</button>
             </div>
             <br/>
         </>

@@ -1,6 +1,6 @@
 import React from "react";
 import './index.css';
-import { Route, Routes, Navigate} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 import Navbar from './Header'
 import List from "./List";
@@ -93,7 +93,7 @@ function App() {
           <Route  exact="true" path="/user/:fname/:lname" element={<User name="User" />}/>
           <Route  exact="true" path="/search" element={<SearchFilter name="Search Filter" />}/>
           <Route  path="*" element={<Error />} />
-          <Navigate to="/" />
+          {/* <Navigate to="/" /> */}
       </Routes>
     </>
   );

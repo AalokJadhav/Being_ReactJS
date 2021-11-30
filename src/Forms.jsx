@@ -21,8 +21,8 @@ const Forms = () => {
               <form onSubmit={onsubmits}>
             <div className="form">
                 <h1 className="hello"> Hello {fullname} </h1>
-                <input type="text" placeholder="Enter Your Name" onChange={InputChange} value={name}></input>
-                <button className="btn" type="submit">Submit</button>
+                <input type="text" placeholder="Enter Your Name" onChange={InputChange} value={name}></input><br/>
+                <button className="btn1" type="submit">Submit</button>
             </div>
             </form>
         </>

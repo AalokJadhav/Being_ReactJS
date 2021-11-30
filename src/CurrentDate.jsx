@@ -14,7 +14,6 @@ function CurrentDate() {
         <p>Current Date is {`${date}`} </p>
         <p>Current Time is {`${time} `} </p>
       </div>
-      <br/>
       <hr className="line"></hr>
     </>
   );

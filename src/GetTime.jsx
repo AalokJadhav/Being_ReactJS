@@ -16,7 +16,7 @@ const GetTime = () => {
             <h5 className="title">🔵 <u>React Hooks</u> -  Get Time on Refreshing and Clicking Button using usestate Hooks </h5><br /><br />
             <div className="usestate">
                 <h1>{currTime}</h1><br />
-                <button className="btn" onClick={getCurrTime}>Get Time ⏲</button>
+                <button className="btn1" onClick={getCurrTime}>Get Time ⏲</button>
             </div>
         </>
     )

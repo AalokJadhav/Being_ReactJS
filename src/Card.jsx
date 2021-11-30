@@ -12,7 +12,7 @@ function Card(props) {
             <span className="card__category">{props.title}</span>
             <NcardHeading sname={props.Sname} />
             <a href={props.link} target="_blank" rel="noreferrer">
-              <button className="btn">Watch Now</button>
+              <button className="btn1">Watch Now</button>
             </a>
           </div>
         </div>
