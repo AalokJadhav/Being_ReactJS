@@ -5,7 +5,7 @@ const Hooks = () => {
     const [nums, setNums] = useState(0);
 
     useEffect(() => {
-        alert ('Welcome To The React App 🙏')
+        alert ('Welcome To The React App 🙏');
     },[num])
     return (
         <>

@@ -38,6 +38,7 @@ import Error from './Components/Router/Pages/Error';
 import Service from './Components/Router/Pages/Service';
 import User from './Components/Router/Pages/User';
 import SearchFilter from './Components/Router/Pages/SearchFilter';
+import  {SignUp} from "./Components/Form-Validation/SignUp";
 
 
 
@@ -95,6 +96,7 @@ function App() {
           <Route  path="*" element={<Error />} />
           {/* <Navigate to="/" /> */}
       </Routes>
+      <SignUp />
     </>
   );
 }
